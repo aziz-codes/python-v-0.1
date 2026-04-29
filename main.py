@@ -1,9 +1,9 @@
-evens = list()
-odds = list()
-for i in range(6):
-    if i%2==0:
-        evens.append(i)
-    else: odds.append(i)
+import random
 
-print(evens)
-print(odds)
+nums = list()
+
+for i in range(10):
+    num = random.randint(i,10)
+    nums.append(num)
+
+print(nums)
