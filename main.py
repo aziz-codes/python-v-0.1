@@ -1,4 +1,12 @@
-nums = list([1,2,3])
+class Animal:
+    def drink(self):
+        print("animal is drinking")
 
-nums.extend([5,6])
-print(nums)
+class Person(Animal):
+    def read(self):
+        print("person is reading")
+
+p = Person()
+
+
+p.drink()
