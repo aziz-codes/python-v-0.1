@@ -1,9 +1,18 @@
 import random
 
-nums = list()
+arr = list()
 
-for i in range(10):
-    num = random.randint(i,10)
-    nums.append(num)
+for i in range(100):
+    arr.append(random.randint(i,200))
 
-print(nums)
+
+def maximum():
+    max= 0
+    for j in arr:
+        if j > max:
+            max = j
+    return max
+
+
+
+print(maximum())
