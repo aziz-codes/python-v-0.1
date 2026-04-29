@@ -1,8 +1,2 @@
-def test(name):
-    print(f"name is {name}")
-
-
-test("A")
-
-
-
+t = (1,2,3,1)
+print(t)
