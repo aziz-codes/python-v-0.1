@@ -3,5 +3,5 @@ user["city"] = "Lahore"
 user["age"] = 45
 
 
-for key in user:
-    print(key)
+for value in user.values():
+    print(value)
