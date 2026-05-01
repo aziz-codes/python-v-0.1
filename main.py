@@ -1,7 +1,4 @@
-user = {"name":"Aziz","age":20}
-user["city"] = "Lahore"
-user["age"] = 45
-
-for key,value in user.items():
-    print(f"key is {key} & value is {value}")
-     
+user = {"age":20,"price":2}
+ 
+result={k:v*v for k,v in user.items() if k=="age"}
+print(result)
