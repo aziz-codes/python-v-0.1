@@ -1,4 +1,10 @@
-user = {"age":20,"price":2}
+users = []
+
+for user in range(1,11):
+    name = f"User {user}"
+    newUser = {
+        "name": name,
+         "age": user * 10,
+    }
+    users.append(newUser)
  
-result={k:v*v for k,v in user.items() if k=="age"}
-print(result)
